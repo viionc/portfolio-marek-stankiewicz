@@ -40,7 +40,7 @@ function Project({project}: {project: ProjectProps}) {
                     </div>
                 </div>
                 <img
-                    className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-2 group-hover:translate-y-2 group-hover:-rotate-2 transition"
+                    className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-2 group-hover:translate-y-2 group-hover:-rotate-2 transition"
                     src={`/projects/${project.image}`}
                     alt={`${project.label} image`}
                 ></img>
