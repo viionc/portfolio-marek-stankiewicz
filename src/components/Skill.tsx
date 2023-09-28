@@ -1,15 +1,15 @@
 import {motion} from "framer-motion";
 
-function Skill({skill, index}: {skill: string; index: number}) {
+function Skill({skill, delay}: {skill: string; delay: number}) {
     return (
         <motion.div
             className="relative"
             initial={{opacity: 0, scale: 0}}
             animate={{opacity: 1, scale: 1}}
-            transition={{delay: 0.1 * index}}
+            transition={{delay: delay}}
         >
             <img
-                src={`/src/assets/logos/${skill}logo.png`}
+                src={`/logos/${skill}logo.png`}
                 alt={`${skill} logo`}
                 height={60}
                 width={60}

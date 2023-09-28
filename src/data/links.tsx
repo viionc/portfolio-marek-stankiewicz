@@ -19,4 +19,4 @@ export const links = [
         text: "Contact",
         link: "#contact-page",
     },
-];
+] as const;

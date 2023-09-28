@@ -1,10 +1,14 @@
 import {motion} from "framer-motion";
 
+import useSectionInView from "../hooks/useSectionInView";
+
 function LandingPage() {
+    const {ref} = useSectionInView("Home", 0.9);
     return (
         <section
+            ref={ref}
             id="landing-page"
-            className="flex items-center justify-center flex-col mb-28 max-w-[50rem] text-center sm:mb-0"
+            className="flex items-center justify-center flex-col mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
         >
             <motion.p
                 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] "
