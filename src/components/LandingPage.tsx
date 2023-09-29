@@ -25,7 +25,7 @@ function LandingPage() {
                 animate={{y: 0, opacity: 1}}
             >
                 <a
-                    href="../assets/MarekStankiewiczCVEnglish26092023n.pdf"
+                    href="/MarekStankiewiczCVEnglish26092023n.pdf"
                     download
                     className="flex bg-blue-700 p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-900 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
                 >
