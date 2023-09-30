@@ -3,7 +3,7 @@ import useSectionInView from "../hooks/useSectionInView";
 function ContactPage() {
     const {ref} = useSectionInView("Contact", 0.9);
     return (
-        <section ref={ref} id="contact-page" className="text-white  scroll-mt-28">
+        <section ref={ref} id="contact-page" className="text-white  scroll-mt-28 z-10">
             <div className="py-8 lg:py-16 px-4 mx-auto  w-[22rem] sm:w-[32rem] lg:w-[50rem] ">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Let's Talk!

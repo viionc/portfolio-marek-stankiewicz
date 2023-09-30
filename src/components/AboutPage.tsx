@@ -15,7 +15,7 @@ function AboutPage() {
                 y: 0,
             }}
             id="about-page"
-            className="flex items-center justify-center flex-col my-28 md:my-80 max-w-[50rem] text-center sm:mb-0 text-2xl scroll-mt-28 "
+            className="flex items-center justify-center flex-col my-28 md:my-80 max-w-[50rem] text-center sm:mb-0 text-2xl scroll-mt-28 z-10"
         >
             <h1 className="text-center p-3 !text-4xl  font-semibold">About Me</h1>
             <p className="mb-2 ">

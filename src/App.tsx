@@ -12,7 +12,7 @@ function App() {
     return (
         <>
             <ActiveSectionContextProvider>
-                <div className="flex flex-col items-center justify-center px-4 z-10">
+                <div className="flex flex-col items-center justify-center px-4">
                     <Navbar></Navbar>
                     <LandingPage></LandingPage>
                     <SkillsPage></SkillsPage>
