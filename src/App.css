@@ -34,21 +34,19 @@ body {
 }
 
 #stars span::after {
-    content: ".";
-    font-size: 10px;
-    transition: all 0.1 ease;
+    content: "x";
+    font-size: 4px;
+    transition: font-size 0.2s ease;
 }
 #stars span:nth-child(odd):after {
-    content: ".";
-    font-size: 9px;
-    transition: all 0.1 ease;
+    content: "x";
+    font-size: 3px;
 }
 #stars span:nth-child(even):after {
-    content: ".";
-    font-size: 11px;
-    transition: all 0.1 ease;
+    content: "x";
+    font-size: 4px;
 }
 #stars span.star-active::after {
     content: "x";
-    font-size: 8px;
+    font-size: 9px;
 }
