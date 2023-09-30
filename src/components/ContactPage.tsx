@@ -80,7 +80,7 @@ function ContactPage() {
                     </div>
                     <button
                         type="submit"
-                        className="flex w-1/4 bg-blue-700 p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-900 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
+                        className="flex w-2/4 md:w-1/4 bg-blue-700 p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-900 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
                     >
                         Send message
                     </button>

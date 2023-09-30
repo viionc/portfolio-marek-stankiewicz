@@ -8,12 +8,13 @@ function LandingPage() {
         <section
             ref={ref}
             id="landing-page"
-            className="flex items-center justify-center flex-col mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] z-10"
+            className="flex items-center justify-center flex-col mb-28 max-w-[50rem] text-center sm:mb-28 scroll-mt-[100rem] z-10"
         >
             <motion.p
-                className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] "
+                className="mb-10 mt-32 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] "
                 initial={{opacity: 0, scale: 0.5}}
                 animate={{opacity: 1, scale: 1}}
+                transition={{type: "spring"}}
             >
                 Hello, <strong>I'm Marek Stankiewicz</strong>, a <strong>Frontend Developer</strong>{" "}
                 who's all about bringing <strong>functionality to life.</strong>
@@ -25,9 +26,9 @@ function LandingPage() {
                 animate={{y: 0, opacity: 1}}
             >
                 <a
-                    href="/MarekStankiewiczCVEnglish28092023.pdf"
+                    href="/MarekStankiewiczCV.pdf"
                     download
-                    className="flex bg-blue-700 p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-900 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
+                    className="flex bg-blue-700 p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-500 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
                 >
                     My Resume
                     <svg
@@ -49,7 +50,7 @@ function LandingPage() {
                 <a
                     href="https://github.com/viionc"
                     target="_blank"
-                    className="bg-white text-black p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-900 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
+                    className="bg-white text-black p-2 px-5 rounded-lg gap-2 items-center justify-center hover:bg-gray-500 hover:bg-opacity-25 hover:text-white transition outline-none focus:scale-110 active:scale-105"
                 >
                     GitHub
                 </a>
