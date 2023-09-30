@@ -36,7 +36,7 @@ body {
 #stars span::after {
     content: "x";
     font-size: 4px;
-    transition: font-size 0.2s ease;
+    transition: font-size 0.1s ease;
 }
 #stars span:nth-child(odd):after {
     content: "x";
