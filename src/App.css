@@ -24,6 +24,31 @@ body {
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    background: linear-gradient(0deg, rgba(34, 143, 195, 1) 10%, rgb(226, 142, 183) 72%) !important;
+    /* background: linear-gradient(0deg, rgba(34, 143, 195, 1) 10%, rgb(46, 34, 90) 72%) !important; */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !important;
     background-attachment: fixed !important;
+    transition: background-color 0.3s ease;
+}
+.star-active {
+    text-shadow: 1px 1px 0px white, 5px 5px 3rem white, 0 0 3rem white !important;
+}
+
+#stars span::after {
+    content: ".";
+    font-size: 10px;
+    transition: all 0.1 ease;
+}
+#stars span:nth-child(odd):after {
+    content: ".";
+    font-size: 9px;
+    transition: all 0.1 ease;
+}
+#stars span:nth-child(even):after {
+    content: ".";
+    font-size: 11px;
+    transition: all 0.1 ease;
+}
+#stars span.star-active::after {
+    content: "x";
+    font-size: 8px;
 }

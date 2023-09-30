@@ -1,7 +1,7 @@
 import useSectionInView from "../hooks/useSectionInView";
 
 function ContactPage() {
-    const {ref} = useSectionInView("Contact", 0.75);
+    const {ref} = useSectionInView("Contact", 0.9);
     return (
         <section ref={ref} id="contact-page" className="text-white  scroll-mt-28">
             <div className="py-8 lg:py-16 px-4 mx-auto  w-[22rem] sm:w-[32rem] lg:w-[50rem] ">

@@ -3,7 +3,7 @@ import Project from "./Project";
 import useSectionInView from "../hooks/useSectionInView";
 
 function ProjectsPage() {
-    const {ref} = useSectionInView("Projects", 0.35);
+    const {ref} = useSectionInView("Projects", 0.2);
 
     return (
         <section
