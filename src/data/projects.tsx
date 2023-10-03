@@ -34,7 +34,7 @@ export const projects: ProjectProps[] = [
         image: "furnitureshop.png",
         description: "E-commerce app for a furniture shop. Browse selection of the best quality furniture.",
         source: "https://github.com/viionc/furnitureshop",
-        demo: "https://furnitureshop-ochre.vercel.app/furnitureshop/",
+        demo: "https://furnitureshop-ochre.vercel.app/",
     },
     {
         label: "Anime Search",
