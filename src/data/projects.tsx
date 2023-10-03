@@ -25,18 +25,16 @@ export const projects: ProjectProps[] = [
     {
         label: "Image Gallery",
         image: "imagegallery.png",
-        description:
-            "Next.js, Cloudinary, and cutting-edge AI image editing converge to offer you a captivating visual experience.",
+        description: "Next.js, Cloudinary, and cutting-edge AI image editing converge to offer you a captivating visual experience.",
         source: "https://github.com/viionc/image-gallery",
         demo: "https://image-gallery-beta-woad.vercel.app/gallery",
     },
     {
         label: "Furniture Shop",
         image: "furnitureshop.png",
-        description:
-            "E-commerce app for a furniture shop. Browse selection of the best quality furniture.",
+        description: "E-commerce app for a furniture shop. Browse selection of the best quality furniture.",
         source: "https://github.com/viionc/furnitureshop",
-        demo: "https://viionc.github.io/furnitureshop/",
+        demo: "https://furnitureshop-ochre.vercel.app/furnitureshop/",
     },
     {
         label: "Anime Search",
