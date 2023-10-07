@@ -7,6 +7,14 @@ export type ProjectProps = {
 };
 export const projects: ProjectProps[] = [
     {
+        label: "Faketflix",
+        image: "faketflix.png",
+        description:
+            "Current project that I'm working on. A Fullstack clone of the Netflix app. This project is built using React and Firebase for Backend.",
+        source: "https://github.com/viionc/faketlix",
+        demo: "https://faketlix.vercel.app/",
+    },
+    {
         label: "Generate Random Data",
         image: "grdapi.png",
         description:
