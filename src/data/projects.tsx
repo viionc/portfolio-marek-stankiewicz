@@ -53,14 +53,6 @@ export const projects: ProjectProps[] = [
         demo: "https://viionc.github.io/anime-react/",
     },
     {
-        label: "Goverment Webpage",
-        image: "gov.png",
-        description:
-            "Clone of a static website I was given as an assignment. Responsive design allows viewing the page on any device with no issues.",
-        source: "https://github.com/viionc/zadanie-na-cv",
-        demo: "https://viionc.github.io/zadanie-na-cv/",
-    },
-    {
         label: "Słowordle",
         image: "slowordle.png",
         description:
