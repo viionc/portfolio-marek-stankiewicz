@@ -21,10 +21,10 @@ function Stars() {
     const [stars, setStars] = useState<StarProps[]>(ARRAY_OF_STARS);
 
     const highlightRandomStars = () => {
-        let newStars = [...ARRAY_OF_STARS];
-        newStars.forEach(star => (star.active = false));
+        const newStars = [...ARRAY_OF_STARS];
+        newStars.forEach((star) => (star.active = false));
         for (let i = 0; i < 20; i++) {
-            let n = Math.floor(Math.random() * NUMBER_OF_STARS);
+            const n = Math.floor(Math.random() * NUMBER_OF_STARS);
             newStars[n].active = true;
         }
         setStars(newStars);
@@ -38,19 +38,14 @@ function Stars() {
     }, [stars]);
 
     return (
-        <div
-            id="stars"
-            className="absolute right-0 h-[3800px] md:h-[4800px] w-full overflow-hidden"
-            style={{top: "-120px"}}
-        >
+        <div id="stars" className="absolute right-0 h-[3800px] md:h-[4800px] w-full overflow-hidden" style={{top: "-120px"}}>
             <div className="relative w-full h-full">
                 {stars.map((star, index) => {
                     return (
                         <span
                             className={clsx("absolute", {"star-active": star.active === true})}
                             key={index}
-                            style={{top: `${star.top}px`, left: `${star.left}px`}}
-                        ></span>
+                            style={{top: `${star.top}px`, left: `${star.left}px`}}></span>
                     );
                 })}
             </div>
