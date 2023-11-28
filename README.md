@@ -1,4 +1,4 @@
 
 ## Marek Stankiewicz - Portfolio.
 
-https://marek-stankiewicz.vercel.app/
+https://viionc.github.io/portfolio-marek-stankiewicz/
